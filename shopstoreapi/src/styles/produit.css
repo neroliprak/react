@@ -1,0 +1,40 @@
+.produit-img {
+  display: flex;
+  margin: auto;
+  object-fit: cover;
+  width: 100%;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.produit {
+  font-family: "Rubik", sans-serif;
+  background-color: #f5f9d5;
+  color: #132a13;
+  padding: 20px 15px;
+  border-radius: 10px;
+  width: 20%;
+}
+
+.produit-remise {
+  display: flex;
+  justify-content: space-around;
+}
+
+p {
+  margin: 8px;
+}
+
+.produit-title {
+  font-family: "Playwrite AR", cursive;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #386641;
+}
+
+.green {
+  color: #007f5f;
+}
+.red {
+  color: #ef233c;
+}

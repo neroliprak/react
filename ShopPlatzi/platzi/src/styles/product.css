@@ -1,0 +1,91 @@
+.product-img {
+  display: flex;
+  object-fit: cover;
+  margin: auto;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.product-title {
+  color: #2e4a70;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.color-text {
+  color: #04080f;
+}
+
+.product-price {
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding-left: 15px;
+}
+
+.product-category {
+  color: #ff7f11;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+.product {
+  background-color: #dae3e5;
+  padding: 20px 30px;
+  border-radius: 10px;
+  width: 20%;
+}
+
+.achat-panier {
+  display: flex;
+  margin-top: 3rem;
+  height: 30px;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.product-button {
+  cursor: pointer;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  margin-left: 10px;
+  padding: 10px 40px;
+  border: none;
+  font-weight: bold;
+}
+
+.product-add {
+  color: rgb(38, 131, 38);
+  transition: 0.2s;
+}
+.product-add:hover {
+  background-color: rgb(139, 228, 139);
+}
+
+.product-remove {
+  color: rgb(157, 5, 5);
+  transition: 0.2s;
+}
+.product-remove:hover {
+  background-color: rgb(233, 143, 143);
+}
+
+.product-detail-achat {
+  color: rgb(38, 131, 38);
+  text-align: center;
+}
+
+.product-detail-decription {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  color: white;
+  background-color: #246491;
+  padding: 5px 0px;
+  border-radius: 5px;
+}

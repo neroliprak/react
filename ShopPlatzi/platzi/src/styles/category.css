@@ -1,0 +1,33 @@
+.categories-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  gap: 0.8rem;
+}
+
+.category {
+  cursor: pointer;
+  padding: 0px 5px;
+  color: white;
+  background-color: #ff7f11;
+  border-radius: 10px;
+  border: 2px #ff7f11 solid;
+  transition: 0.2s;
+}
+
+.category:hover {
+  border: 2px #ff7f11 solid;
+  background-color: white;
+  color: #ff7f11;
+}
+
+.category p {
+  margin: 5px;
+}
+
+.select {
+  border: 2px #ff7f11 solid;
+  background-color: white;
+  color: #ff7f11;
+}

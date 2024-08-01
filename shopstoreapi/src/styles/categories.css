@@ -1,0 +1,27 @@
+.categories {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-top: 3rem;
+}
+.category-button {
+  cursor: pointer;
+  background-color: #a7c957;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 2px solid #a7c957;
+  transition: 0.2s;
+}
+
+.category-button:hover {
+  border: 2px solid #a7c957;
+  background-color: #132a13;
+  color: #a7c957;
+}
+
+.selected {
+  background-color: #132a13;
+  color: #a7c957;
+  border: 2px solid #a7c957;
+}
